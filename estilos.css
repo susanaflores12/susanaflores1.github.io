@@ -1,0 +1,95 @@
+body{
+    background: linear-gradient(#5a0344, #5a0344 );
+}
+
+header {
+    display: flex; 
+    align-items: center; 
+    padding: 10px;
+}
+
+.Logopc {
+    margin-right: 230px;
+}
+
+.NEmpresa{
+    font-size: 40px; 
+    font-weight: bold; 
+    color: #fff;
+}
+
+.computadoras{
+    width: 20%; 
+    display: block;
+    margin: 0 auto;
+}
+
+.laptop{
+    width: 45%; 
+    display: block; 
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #0a0735; 
+    padding: 10px;
+    text-align: center;    
+}
+
+nav ul li {
+    display: inline;    
+    margin-right: 80px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+   /* background-color: rgb(0, 0, 0); */ 
+    
+    padding: 20px;    
+}
+
+.a{
+    background-color: rgb(255, 255, 255);
+}
+
+.b{
+    background-color: rgb(255, 255, 255);
+}
+
+article {
+    width: 49%;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+aside {
+    border: 1px solid #000000;   
+    width: 45%; 
+    display: block; 
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    background-color: rgb(255, 255, 255); 
+    padding: 10px;
+    
+}
+
+aside a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #000000;
+    
+}
+
+footer {
+    margin-top: 20px; 
+    background-color: #0a0735; 
+    padding: 5px; 
+    text-align: center; 
+    color: #fff;
+}
